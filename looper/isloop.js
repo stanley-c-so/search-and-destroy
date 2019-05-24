@@ -3,6 +3,19 @@
 //Complete this algo
 const isLoop = (linkedlist) => {
 
+    // ORIGINAL SOLUTION (assumes all node values are unique):
+
+    // const dictionary = {};
+    // let currentNode = linkedlist.head;
+    // while (currentNode.next) {
+    //     if (dictionary[currentNode.value]) {
+    //         return true;
+    //     }
+    //     dictionary[currentNode.value] = true;
+    //     currentNode = currentNode.next;
+    // }
+    // return false;
+
 };
 
 
