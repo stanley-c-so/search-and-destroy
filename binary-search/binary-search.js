@@ -32,7 +32,7 @@ const binarySearch = (array, target) => {
 		} else {
 			left = midpoint + 1;
 		}
-		midpoint = Math.floor((right - left) / 2);
+		midpoint = left + Math.floor((right - left) / 2);
 	}
 	if (array[midpoint] === target) {
 		return true;
